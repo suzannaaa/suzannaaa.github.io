@@ -42,13 +42,13 @@ export default function CardStack({
             <div className="flex space-x-4 mt-4">
                 <button
                     onClick={onReset}
-                    className="px-4 py-1 bg-pink-200 dark:bg-gray-700 rounded hover:bg-pink-300"
+                    className="font-hero px-4 py-1 bg-pink-200 dark:bg-gray-700 rounded hover:bg-pink-300"
                 >
                     Reset
                 </button>
                 <button
                     onClick={onSwipe}
-                    className="px-4 py-1 bg-gray-300 dark:bg-gray-600 rounded hover:bg-gray-400"
+                    className="font-hero px-4 py-1 bg-gray-300 dark:bg-gray-600 rounded hover:bg-gray-400"
                 >
                     Skip →
                 </button>

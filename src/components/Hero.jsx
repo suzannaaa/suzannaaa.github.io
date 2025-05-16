@@ -20,7 +20,7 @@ const projects = [
         thumbnail: "https://res.cloudinary.com/drngi3j2z/image/upload/v1747322710/Mad%20Scientist%20Thumbnail.png",
         textClass: "text-green-900 dark:text-green-500",
         bgClass: "bg-green-100 dark:bg-green-900",
-        font: "font-chem"
+        // font: "font-chem"
     },
     {
         title: "IMCS Form Management",
@@ -44,8 +44,8 @@ const projects = [
         description: "Collaborated with Indonesian students to solve a local farmer's problem. Prototyped greenhouse layout tools, a fertilising jet, and Excel-based inventory system.",
         videoUrl: "https://res.cloudinary.com/drngi3j2z/video/upload/v1747343661/OSIP%20Demo.mp4",
         thumbnail: "https://res.cloudinary.com/drngi3j2z/image/upload/v1747343862/OSIP%20Thumbnail.png",
-        textClass: "text-gray-900 dark:text-white",
-        bgClass: "bg-green-100 dark:bg-green-800",
+        textClass: "text-violet-900 dark:text-violet-300",
+        bgClass: "bg-violet-300 dark:bg-violet-950",
     },
     {
         title: "Sustainability Web App",
