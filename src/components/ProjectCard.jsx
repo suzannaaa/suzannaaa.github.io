@@ -66,7 +66,7 @@ export default function ProjectCard({ project, isTop, onSwipe, showVideo, setSho
                 />
             )}
 
-            <h3 className={`text-xl font-bold mb-2 ${project.textClass || ""}`}>{project.title}</h3>
+            <h3 className={`text-xl font-bold mb-2 ${project.textClass || ""} ${project.font || ""}`}>{project.title}</h3>
             <a
                 href={project.link}
                 className="text-pink-600 font-medium hover:underline"

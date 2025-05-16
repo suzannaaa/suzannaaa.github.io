@@ -17,7 +17,7 @@ export default function Navbar() {
   }, [darkMode]);
 
   return (
-    <nav className="bg-peach/60 dark:bg-gray-800 text-gray-800 dark:text-white shadow sticky top-0 z-50">
+    <nav className="bg-orange-100 dark:bg-gray-800 text-gray-800 dark:text-white shadow sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         <h1 className="font-bold text-xl text-pink-500">Suzanna</h1>
         <div className="space-x-4 text-sm font-medium">

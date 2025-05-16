@@ -20,12 +20,13 @@ const projects = [
         thumbnail: "https://res.cloudinary.com/drngi3j2z/image/upload/v1747322710/Mad%20Scientist%20Thumbnail.png",
         textClass: "text-green-900 dark:text-green-500",
         bgClass: "bg-green-100 dark:bg-green-900",
+        font: "font-chem"
     },
     {
         title: "IMCS Form Management",
         link: "#",
         description: "Led a real-client form management system with scoring and workflow logic. Served as Scrum Master and integrated BE Lite form with PostgreSQL and CI/CD deployment.",
-        thumbnail: "http://imcs-prod-alb-127468710.ap-southeast-1.elb.amazonaws.com/assets/beform-preview-D8AQwqrG.png",
+        thumbnail: "https://res.cloudinary.com/drngi3j2z/image/upload/v1747346701/IMCS%20Form%20Management%20Thumbnail.png",
         textClass: "text-blue-900 dark:text-blue-100",
         bgClass: "bg-blue-200 dark:bg-blue-900",
     },
@@ -88,8 +89,8 @@ export default function Hero() {
                         className="w-14 h-12 sm:w-16 sm:h-14 md:w-20 md:h-16 xl:w-24 xl:h-20"
                     />
                 </div>
-                <p className="text-base sm:text-lg md:text-xl xl:text-2xl max-w-xl mx-auto">
-                    I create fun, user-focused digital experiences powered by React & Tailwind.
+                <p className="text-base sm:text-lg md:text-xl xl:text-2xl max-w-xl mx-auto px-2 font-hero">
+                    Welcome to my Portfolio! I enjoy innovating solutions to real-world problems!
                 </p>
             </div>
 
@@ -125,7 +126,7 @@ export default function Hero() {
                             <h1 className="text-2xl sm:text-3xl md:text-3xl max-w-md font-hero mb-4">
                                 {topProject.title}
                             </h1>
-                            <p className="text-base sm:text-lg md:text-xl  max-w-md leading-relaxed">
+                            <p className="text-base sm:text-lg md:text-xl max-w-md leading-relaxed">
                                 {topProject.description}
                             </p>
                         </motion.div>

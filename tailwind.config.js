@@ -8,7 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        hero: ['"Chewy"', 'cursive'],
+        silly: ['Kablammo'],
+        hero: ['Sniglet',],
+        chem: ['Creepster'],
         body: ['"Fira Sans"', 'sans-serif'],
         mono: ['"Space Mono"', 'monospace'],
       },
