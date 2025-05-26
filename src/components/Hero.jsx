@@ -80,7 +80,7 @@ export default function Hero() {
             {/* Intro */}
             <div className="text-center mb-6">
                 <div className="flex justify-center items-center gap-3 mb-4">
-                    <h1 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-hero">
+                    <h1 className="text-3xl font-mono font-bold">
                         Hello, I'm Suzanna!
                     </h1>
                     <img
@@ -89,8 +89,8 @@ export default function Hero() {
                         className="w-14 h-12 sm:w-16 sm:h-14 md:w-20 md:h-16 xl:w-24 xl:h-20"
                     />
                 </div>
-                <p className="text-base sm:text-lg md:text-xl xl:text-2xl max-w-xl mx-auto px-2 font-hero">
-                    Welcome to my Portfolio! I enjoy innovating solutions to real-world problems!
+                <p className="text-lg max-w-xl mx-auto px-2 font-mono">
+                    Welcome to my Portfolio! Below showcases some of the projects I have worked on!
                 </p>
             </div>
 
