@@ -80,13 +80,13 @@ export default function Hero() {
             {/* Intro */}
             <div className="text-center mb-6">
                 <div className="flex justify-center items-center gap-3 mb-4">
-                    <h1 className="text-3xl font-mono font-bold">
+                    <h1 className="text-xl md:text-3xl font-mono font-bold">
                         Hello, I'm Suzanna!
                     </h1>
                     <img
                         src="https://res.cloudinary.com/drngi3j2z/image/upload/v1747319203/Pompompurin%20Greeting.gif"
                         alt="Waving Pompompurin"
-                        className="w-14 h-12 sm:w-16 sm:h-14 md:w-20 md:h-16 xl:w-24 xl:h-20"
+                        className="w-16 h-12 sm:w-16 sm:h-14 md:w-20 md:h-16 xl:w-24 xl:h-20"
                     />
                 </div>
                 <p className="text-lg max-w-xl mx-auto px-2 font-mono">
