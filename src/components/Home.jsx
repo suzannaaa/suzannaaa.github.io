@@ -73,18 +73,18 @@ function MyModel() {
 //   const [autoRotate, setAutoRotate] = useState(true);
 
 //   useEffect(() => {
-//     const timeout = setTimeout(() => setAutoRotate(false), 3000); // stop after 3s
+//     const timeout = setTimeout(() => setAutoRotate(false), 10455); // stop after 3s
 //     return () => clearTimeout(timeout);
 //   }, []);
 
 //   useFrame(() => {
 //     if (autoRotate && groupRef.current) {
-//       groupRef.current.rotation.y += 0.005;
+//       groupRef.current.rotation.y += 0.01;
 //     }
 //   });
 
 //   return (
-//     <group ref={groupRef} position={[0, -1, 0]} scale={1}>
+//     <group ref={groupRef} position={[0, 0, 0]} scale={1}>
 //       <primitive object={scene} />
 //     </group>
 //   );
@@ -114,7 +114,7 @@ export default function Home() {
                         {/* Callout Top Left */}
                         <div className="absolute -top-4 -left-4 w-32 md:w-48 text-xs md:text-lg text-left rotate-[-8deg] z-40">
                             <div className="bg-yellow-100 border border-yellow-300 p-2 rounded-xl shadow">
-                                🎵 Music
+                                🎵 Loves Music
                             </div>
                             <div className="w-0 h-0 border-t-[10px] border-t-yellow-300 border-l-[10px] border-l-transparent ml-3 -mt-1" />
                         </div>
@@ -122,7 +122,7 @@ export default function Home() {
                         {/* Callout Top Right */}
                         <div className="absolute -top-4 -right-4 w-32 md:w-48 text-xs md:text-lg text-right rotate-[8deg] z-40">
                             <div className="bg-pink-100 border border-pink-300 p-2 rounded-xl shadow">
-                                🎨 Loves innovation
+                                🎨 Innovative
                             </div>
                             <div className="w-0 h-0 border-t-[10px] border-t-pink-300 border-r-[10px] border-r-transparent mr-3 -mt-1 float-right" />
                         </div>
@@ -154,7 +154,7 @@ export default function Home() {
                         /> */}
                             {/* <div className="absolute inset-0 m-auto h-[80%] w-[100%] bg-yellow-200 rounded-full blur-sm" /> */}
 
-                            <h2 className="relative top-10 z-10 dark:text-white text-xl md:text-3xl font-bold">Hello, I'm Suzanna!</h2>
+                            <h2 className="relative top-10 z-10 text-yellow-900 dark:text-yellow-200 text-xl md:text-3xl font-bold">Hello, I'm Suzanna!</h2>
 
                             {showTooltip && (
                                 <div
@@ -177,7 +177,7 @@ export default function Home() {
                                     transform="translate(100 100)"
                                 />
                             </svg>
-                            <Canvas className="relative top-5 md:top-10 z-10" camera={{ position: [0, 5, 100], fov: 45 }}>
+                            <Canvas className="relative top-5 md:top-10 z-10" camera={{ position: [0, 5, 112], fov: 45 }}>
                                 <ambientLight intensity={0.5} />
                                 <directionalLight position={[5, 5, 5]} intensity={1} />
                                 <Environment preset="sunset" background={false} />
@@ -185,7 +185,7 @@ export default function Home() {
                                 <OrbitControls
                                     enableZoom={false}
                                     enablePan={false}
-                                    target={[-1, -10, -10]}
+                                    target={[-1, -8, 0]}
                                 />
                             </Canvas>
                         </div>
@@ -200,7 +200,7 @@ export default function Home() {
                     </ul>
                 </div> */}
                 
-                    <h2 className="relative bottom-20 z-10 dark:text-white text-sm md:text-2xl font-bold">Here are some fun facts about me!</h2>
+                    <h2 className="relative bottom-20 z-10 text-yellow-900 dark:text-yellow-200 text-sm md:text-2xl font-bold">Here are some fun facts about me!</h2>
                 </div>
         </section>
     );
